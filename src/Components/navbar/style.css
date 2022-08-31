@@ -1,0 +1,98 @@
+.Container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    border: 1px solid red;
+    color: white;
+}
+
+.Wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.Item{
+    width: 13%;
+    /* height: 40px; */
+    margin: 0px 30px;
+    color: white;
+    float: left;
+   
+}
+
+
+
+.navLink{
+    font-size: 20px;
+    padding: 17px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navLink:hover{
+    background-color: white;
+    color: black;
+}
+
+.SearchIcon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    width: 50%;
+    padding: 0 20px;
+    size: 20px;
+}
+.active{
+    background-color: white;
+    color: black;
+}
+
+@media(max-width:600px){
+
+    .Container{
+      
+        width: 100%;
+        height: 40px;
+       
+    }
+    
+
+    .navLink{
+        padding: 2px 6px;
+        font-size: 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .navLink:hover{
+        background-color: white;
+        color: black;
+    }
+    .Item{
+        width: 13%;
+        /* height: 40px; */
+        margin: 0px 15px;
+        color: white;
+        float: left;
+       
+    }
+    .SearchIcon{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        cursor: pointer;
+        width: 50%;
+        padding: 0 10px;
+        
+    }
+    
+}

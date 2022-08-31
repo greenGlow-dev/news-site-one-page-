@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.root{
+    margin:0 auto;
+    max-width: 1800px;
+    height: 100%;
+    width: 100%;
+   
+}
